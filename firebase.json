@@ -1,0 +1,13 @@
+{
+  "database": {
+    "rules": "vue_demo\\firebase.json"
+  },
+  "hosting": {
+    "public": "vue_demo\\dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
